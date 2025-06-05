@@ -76,3 +76,39 @@ body {
   color: #111;
   font-size: 15px;
 }
+
+@media (max-width: 400px) {
+  body {
+    padding: 16px;
+  }
+
+  .card {
+    max-width: 100%;
+    padding: 16px;
+    box-shadow: 4px 4px 0 #000;
+    gap: 16px;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+
+  .card-desc {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+
+  .card-category,
+  .card-date {
+    font-size: 12px;
+  }
+
+  .card-author-img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .card-author-name {
+    font-size: 13px;
+  }
+}
