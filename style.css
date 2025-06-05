@@ -1,0 +1,78 @@
+body {
+  background: #f4d04e;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Figtree', Arial, sans-serif;
+  margin: 0;
+}
+
+.card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 8px 8px 0 #000;
+  max-width: 384px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border: 1.5px solid #111;
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 8px;
+  display: block;
+}
+
+.card-category {
+  background: #f4d04e;
+  color: #111;
+  font-weight: 800;
+  font-size: 14px;
+  padding: 6px 14px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+.card-date {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: 800;
+  margin: 0 0 12px 0;
+  color: #111;
+}
+
+.card-desc {
+  color: #7f7f7f;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.card-author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.card-author-img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1.5px solid #fff;
+  object-fit: cover;
+}
+
+.card-author-name {
+  font-weight: 800;
+  color: #111;
+  font-size: 15px;
+}
